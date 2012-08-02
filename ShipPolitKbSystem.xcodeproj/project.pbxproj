@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E3C1E80C15CAB8510084B644 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3C1E80B15CAB8510084B644 /* UIKit.framework */; };
+		E3C1E80E15CAB8510084B644 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3C1E80D15CAB8510084B644 /* Foundation.framework */; };
+		E3C1E81015CAB8510084B644 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3C1E80F15CAB8510084B644 /* CoreGraphics.framework */; };
+		E3C1E81615CAB8510084B644 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E3C1E81415CAB8510084B644 /* InfoPlist.strings */; };
+		E3C1E81815CAB8510084B644 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C1E81715CAB8510084B644 /* main.m */; };
+		E3C1E81C15CAB8510084B644 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C1E81B15CAB8510084B644 /* AppDelegate.m */; };
+		E3C1E81F15CAB8510084B644 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C1E81E15CAB8510084B644 /* ViewController.m */; };
+		E3C1E82215CAB8510084B644 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3C1E82015CAB8510084B644 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E3C1E80715CAB8510084B644 /* ShipPolitKbSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShipPolitKbSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3C1E80B15CAB8510084B644 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E3C1E80D15CAB8510084B644 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E3C1E80F15CAB8510084B644 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E3C1E81315CAB8510084B644 /* ShipPolitKbSystem-Info.plist */ = {isa = PBXFileReference; path = "ShipPolitKbSystem-Info.plist"; sourceTree = "<group>"; };
+		E3C1E81515CAB8510084B644 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E3C1E81715CAB8510084B644 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E3C1E81915CAB8510084B644 /* ShipPolitKbSystem-Prefix.pch */ = {isa = PBXFileReference; path = "ShipPolitKbSystem-Prefix.pch"; sourceTree = "<group>"; };
+		E3C1E81A15CAB8510084B644 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E3C1E81B15CAB8510084B644 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E3C1E81D15CAB8510084B644 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		E3C1E81E15CAB8510084B644 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E3C1E82115CAB8510084B644 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3C1E80415CAB8510084B644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3C1E80C15CAB8510084B644 /* UIKit.framework in Frameworks */,
+				E3C1E80E15CAB8510084B644 /* Foundation.framework in Frameworks */,
+				E3C1E81015CAB8510084B644 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E3C1E7FC15CAB8510084B644 = {
+			isa = PBXGroup;
+			children = (
+				E3C1E81115CAB8510084B644 /* ShipPolitKbSystem */,
+				E3C1E80A15CAB8510084B644 /* Frameworks */,
+				E3C1E80815CAB8510084B644 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E3C1E80815CAB8510084B644 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3C1E80715CAB8510084B644 /* ShipPolitKbSystem.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3C1E80A15CAB8510084B644 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3C1E80B15CAB8510084B644 /* UIKit.framework */,
+				E3C1E80D15CAB8510084B644 /* Foundation.framework */,
+				E3C1E80F15CAB8510084B644 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3C1E81115CAB8510084B644 /* ShipPolitKbSystem */ = {
+			isa = PBXGroup;
+			children = (
+				E3C1E81A15CAB8510084B644 /* AppDelegate.h */,
+				E3C1E81B15CAB8510084B644 /* AppDelegate.m */,
+				E3C1E81D15CAB8510084B644 /* ViewController.h */,
+				E3C1E81E15CAB8510084B644 /* ViewController.m */,
+				E3C1E82015CAB8510084B644 /* ViewController.xib */,
+				E3C1E81215CAB8510084B644 /* Supporting Files */,
+			);
+			path = ShipPolitKbSystem;
+			sourceTree = "<group>";
+		};
+		E3C1E81215CAB8510084B644 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3C1E81315CAB8510084B644 /* ShipPolitKbSystem-Info.plist */,
+				E3C1E81415CAB8510084B644 /* InfoPlist.strings */,
+				E3C1E81715CAB8510084B644 /* main.m */,
+				E3C1E81915CAB8510084B644 /* ShipPolitKbSystem-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3C1E80615CAB8510084B644 /* ShipPolitKbSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3C1E82515CAB8510084B644 /* Build configuration list for PBXNativeTarget "ShipPolitKbSystem" */;
+			buildPhases = (
+				E3C1E80315CAB8510084B644 /* Sources */,
+				E3C1E80415CAB8510084B644 /* Frameworks */,
+				E3C1E80515CAB8510084B644 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShipPolitKbSystem;
+			productName = ShipPolitKbSystem;
+			productReference = E3C1E80715CAB8510084B644 /* ShipPolitKbSystem.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3C1E7FE15CAB8510084B644 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = E3C1E80115CAB8510084B644 /* Build configuration list for PBXProject "ShipPolitKbSystem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E3C1E7FC15CAB8510084B644;
+			productRefGroup = E3C1E80815CAB8510084B644 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3C1E80615CAB8510084B644 /* ShipPolitKbSystem */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3C1E80515CAB8510084B644 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3C1E81615CAB8510084B644 /* InfoPlist.strings in Resources */,
+				E3C1E82215CAB8510084B644 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3C1E80315CAB8510084B644 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3C1E81815CAB8510084B644 /* main.m in Sources */,
+				E3C1E81C15CAB8510084B644 /* AppDelegate.m in Sources */,
+				E3C1E81F15CAB8510084B644 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E3C1E81415CAB8510084B644 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3C1E81515CAB8510084B644 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E3C1E82015CAB8510084B644 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3C1E82115CAB8510084B644 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E3C1E82315CAB8510084B644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		E3C1E82415CAB8510084B644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3C1E82615CAB8510084B644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShipPolitKbSystem/ShipPolitKbSystem-Prefix.pch";
+				INFOPLIST_FILE = "ShipPolitKbSystem/ShipPolitKbSystem-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E3C1E82715CAB8510084B644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShipPolitKbSystem/ShipPolitKbSystem-Prefix.pch";
+				INFOPLIST_FILE = "ShipPolitKbSystem/ShipPolitKbSystem-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3C1E80115CAB8510084B644 /* Build configuration list for PBXProject "ShipPolitKbSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3C1E82315CAB8510084B644 /* Debug */,
+				E3C1E82415CAB8510084B644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3C1E82515CAB8510084B644 /* Build configuration list for PBXNativeTarget "ShipPolitKbSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3C1E82615CAB8510084B644 /* Debug */,
+				E3C1E82715CAB8510084B644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E3C1E7FE15CAB8510084B644 /* Project object */;
+}
